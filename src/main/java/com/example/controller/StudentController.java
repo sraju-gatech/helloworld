@@ -23,6 +23,7 @@ public class StudentController {
 	//@RequestMapping(value = "/get", method = RequestMethod.GET)
 	public String getStudent () {
 		//StudentResponse studentResponse = new StudentResponse(1, "John", "Smith");
+		//This comment is with Branch A
 		return studName +" "+studRegion+ " " +studAge; //studentResponse;
 	}
 }
