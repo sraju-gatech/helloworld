@@ -24,6 +24,7 @@ public class StudentController {
 	public String getStudent () {
 		//StudentResponse studentResponse = new StudentResponse(1, "John", "Smith");
 		//This comment is with Branch A
+		//This comment is for branch C
 		return studName +" "+studRegion+ " " +studAge; //studentResponse;
 	}
 }
